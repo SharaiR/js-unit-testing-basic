@@ -1,0 +1,32 @@
+{
+  "name": "js-unit-testing-basic",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Unit testing framework in JS - Basic",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "c8 npm test",
+    "lint": "eslint ./ --fix",
+    "prepare": "husky install"
+  },
+  "keywords": [],
+  "author": "SharaiR",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SharaiR/js-unit-testing-basic.git"
+  },
+  "homepage": "https://github.com/SharaiR/js-unit-testing-basic/blob/main/README.md",
+  "devDependencies": {
+    "eslint": "^8.41.0",
+    "eslint-config-google": "^0.14.0"
+  },
+  "dependencies": {
+    "c8": "^7.14.0",
+    "chai": "^4.3.7",
+    "husky": "^8.0.3",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3"
+  }
+}
