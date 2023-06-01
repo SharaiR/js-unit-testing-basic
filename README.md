@@ -11,7 +11,7 @@ Unit testing framework in JS - Basic
 ```npm run coverage```
 
 ## Run Lint
-```npm run lint``
+```npm run lint```
 
 ## Unit testing frameworks in Javascript [Article](ReadmeUnitTesting.md)
 
