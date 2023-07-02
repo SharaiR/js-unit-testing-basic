@@ -27,18 +27,23 @@
 
 ## Update ".eslintrc.json" file
   1. Open file and add rures:
-    ```json
-    "rules": {
-        "linebreak-style": "off",
-        "require-jsdoc": "off",
-        "indent": ["error", 4, { "SwitchCase": 1 }], // indents in the code of 4 spaces, taking into account switch...case
-        "camelcase": "error", // camelCase variable and function names
-        "for-direction": "error", // checking the for loop for a finite number of iterations
-        "object-curly-spacing": "off",
-        "max-len": ["error", 100], // maximum string length
-        "no-multiple-empty-lines": "error" // no more than 2 blank lines in a row
-    }
-    ```
+     ```json
+      "rules": {
+          "linebreak-style": "off",
+          "require-jsdoc": "off",
+          "indent": ["error", 4, { "SwitchCase": 1 }],
+          "camelcase": "error",
+          "for-direction": "error",
+          "object-curly-spacing": "off",
+          "max-len": ["error", 100],
+          "no-multiple-empty-lines": "error"
+      }
+     ```
+- "error" --> indents in the code of 4 spaces, taking into account switch...case
+- "camelcase" --> camelCase variable and function names
+- "for-direction" --> checking the for loop for a finite number of iterations
+- "max-len" --> maximum string length
+- "no-multiple-empty-lines" --> no more than 2 blank lines in a row
 
 ## Important notice
   1. Open "package.json" file
